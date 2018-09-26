@@ -1,0 +1,41 @@
+{
+  "uid" : "4f00bd7a4fb833d2",
+  "name" : "Login with valid Username and Password",
+  "title" : "Login with valid Username and Password",
+  "time" : {
+    "start" : 1537733337694,
+    "stop" : 1537733372690,
+    "duration" : 34996
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e674ed4919260d17",
+    "name" : "Automate Login Functionality with all possible scenario",
+    "title" : "Automate Login Functionality with all possible scenario"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "e2a557e0-116d-464a-adf9-a575e2704021-attachment.png",
+    "type" : "image/png",
+    "size" : 242069,
+    "uid" : "676a8b15ab88ae03"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Automate Login Functionality with all possible scenario"
+  }, {
+    "name" : "suite-title",
+    "value" : "Automate Login Functionality with all possible scenario"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537788516279' stop='1537788600887'>
+    <name>Automate Login Functionality with all possible scenario</name>
+    <title>Automate Login Functionality with all possible scenario</title>
+    <test-cases>
+        <test-case start='1537788516279' status='passed' stop='1537788533969'>
+            <name>Login without Username</name>
+            <title>Login without Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3a71648d-4235-410f-a01d-8793934f0a86-attachment.png' type='image/png' size='106806'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537788533969' status='passed' stop='1537788540332'>
+            <name>Login without Password</name>
+            <title>Login without Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e45a2a6b-8c4a-4a48-b677-fc60007bbc80-attachment.png' type='image/png' size='106806'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537788540332' status='passed' stop='1537788600887'>
+            <name>Login with valid Username and Password</name>
+            <title>Login with valid Username and Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ac565f4e-0ce3-407e-a230-8170e652a5df-attachment.png' type='image/png' size='242434'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
