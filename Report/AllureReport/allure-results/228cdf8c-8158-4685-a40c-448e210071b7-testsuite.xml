@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537788063518' stop='1537788104111'>
+    <name>Automate Login Functionality with all possible scenario</name>
+    <title>Automate Login Functionality with all possible scenario</title>
+    <test-cases>
+        <test-case start='1537788063518' status='failed' stop='1537788070478'>
+            <name>Login without Username</name>
+            <title>Login without Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c4c5f01a-747a-4cd1-905f-1af1057cf5f0-attachment.png' type='image/png' size='106806'/>
+            </attachments>
+            <failure>
+                <message>Failed: element.getText is not a function</message>
+                <stack-trace>TypeError: element.getText is not a function
+                    at TextBox.getTextValue (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\UIControls\TextBox.ts:23:21)
+                    at LoginPage.getErrorMessage (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\Pages\LoginPage.ts:26:36)
+                    at UserContext.&lt;anonymous> (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\tests\LoginTest.ts:10:19)
+                    at C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                From: Task: Run it("Login without Username") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\tests\LoginTest.ts:8:5)
+                    at addSpecsToSuite (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\tests\LoginTest.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (E:\Pawan_Project\e2e_project\e2e_venminder_poc\node_modules\ts-node\src\index.ts:410:23)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (E:\Pawan_Project\e2e_project\e2e_venminder_poc\node_modules\ts-node\src\index.ts:413:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537788070478' status='failed' stop='1537788070841'>
+            <name>Login without Password</name>
+            <title>Login without Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b72e043c-afbf-43ff-a958-fcaea5df0f97-attachment.png' type='image/png' size='106775'/>
+            </attachments>
+            <failure>
+                <message>Failed: element.getText is not a function</message>
+                <stack-trace>TypeError: element.getText is not a function
+                    at TextBox.getTextValue (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\UIControls\TextBox.ts:23:21)
+                    at LoginPage.getErrorMessage (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\Pages\LoginPage.ts:26:36)
+                    at UserContext.&lt;anonymous> (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\tests\LoginTest.ts:17:19)
+                    at C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+                From: Task: Run it("Login without Password") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\tests\LoginTest.ts:15:5)
+                    at addSpecsToSuite (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\pawan.singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (E:\Pawan_Project\e2e_project\e2e_venminder_poc\e2e\tests\LoginTest.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (E:\Pawan_Project\e2e_project\e2e_venminder_poc\node_modules\ts-node\src\index.ts:410:23)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (E:\Pawan_Project\e2e_project\e2e_venminder_poc\node_modules\ts-node\src\index.ts:413:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537788070841' status='passed' stop='1537788104110'>
+            <name>Login with valid Username and Password</name>
+            <title>Login with valid Username and Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8ec6078e-5bb3-4222-b53f-a1bd131ed4e4-attachment.png' type='image/png' size='242058'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

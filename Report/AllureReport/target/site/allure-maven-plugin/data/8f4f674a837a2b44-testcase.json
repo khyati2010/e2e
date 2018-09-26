@@ -1,0 +1,41 @@
+{
+  "uid" : "8f4f674a837a2b44",
+  "name" : "Login without Password",
+  "title" : "Login without Password",
+  "time" : {
+    "start" : 1537733331703,
+    "stop" : 1537733337694,
+    "duration" : 5991
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e674ed4919260d17",
+    "name" : "Automate Login Functionality with all possible scenario",
+    "title" : "Automate Login Functionality with all possible scenario"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "1a3726ff-80ce-459b-b0ea-b00d83dac93e-attachment.png",
+    "type" : "image/png",
+    "size" : 106775,
+    "uid" : "50b2f76c51fbf3db"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Automate Login Functionality with all possible scenario"
+  }, {
+    "name" : "suite-title",
+    "value" : "Automate Login Functionality with all possible scenario"
+  } ],
+  "parameters" : [ ]
+}
