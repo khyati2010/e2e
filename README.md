@@ -1,6 +1,3 @@
-# venminder_gui
-venminder_gui
-
 ## Table of Contents
 
 1. [Testing](#testing)
